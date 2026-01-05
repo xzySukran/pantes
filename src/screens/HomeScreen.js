@@ -163,8 +163,8 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     paddingHorizontal: 20,
-    paddingTop: 80,       // ✅ RAPAT
-    paddingBottom: 80,
+    paddingTop: 0,       // ✅ RAPAT
+    paddingBottom: 0,
   },
   avatarWrapper: { alignItems: "center", marginTop: 10 },
   avatar: {
@@ -194,7 +194,7 @@ const styles = StyleSheet.create({
   /* QUEUE */
   queueContainer: {
     paddingHorizontal: 20,
-    marginTop: 8,       // 🔥 JARAK IDEAL
+    marginTop: 0,       // 🔥 JARAK IDEAL
   },
 
   /* MENU */
