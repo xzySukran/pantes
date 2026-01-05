@@ -3,36 +3,40 @@
     "name": "Medicare",
     "slug": "Medicare",
     "version": "1.0.0",
+
+    "cli": {
+      "appVersionSource": "remote"
+    },
+
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
+
     "splash": {
       "image": "./assets/logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "ios": {
-      "supportsTablet": true
-    },
+
     "android": {
+      "package": "com.sukranxzy.medicare",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "plugins": [
-      "expo-font"
-    ],
+
+    "plugins": ["expo-font"],
+
     "extra": {
       "eas": {
         "projectId": "6f47918b-bbd5-404e-be89-f2dcc026b3f8"
       }
     },
+
     "owner": "sukranxzy"
   }
 }

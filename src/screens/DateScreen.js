@@ -6,6 +6,7 @@ import {
   TextInput,
   TouchableOpacity,
   Modal,
+  ActivityIndicator,
 } from "react-native";
 import { Calendar } from "react-native-calendars";
 import { useContext, useState } from "react";
@@ -111,7 +112,9 @@ if (Text.defaultProps == null) {
     <>
       <ScrollView
         style={styles.container}
+        contentContainerStyle={{ paddingBottom: 120 }}
         showsVerticalScrollIndicator={false}
+        keyboardShouldPersistTaps="handled"
       >
         <Text style={styles.header}>Daftar Berobat</Text>
 
@@ -264,7 +267,7 @@ const styles = StyleSheet.create({
     fontWeight: "700",
     color: "#1F5BFF",
     textAlign: "center",
-    paddingVertical: 30,
+    paddingVertical: 20,
   },
 
   card: {

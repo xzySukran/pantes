@@ -4,6 +4,7 @@ import {
   FlatList,
   StyleSheet,
   Platform,
+  ActivityIndicator,
 } from "react-native";
 import { useContext, useEffect } from "react";
 import { NotificationContext } from "../context/NotificationContext";
